@@ -1,0 +1,87 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: black;
+}
+
+#quiz-container,
+#result-container {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid black;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#quiz-container {
+    text-align: center;
+}
+
+#quiz-container h1 {
+    padding: 10px;
+    color: white;
+    font-size: 33px;
+    background-color: rgb(6, 56, 6);
+
+}
+
+#question {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(16, 197, 242);
+}
+
+#options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+#options button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #71d4f6;
+    color: #fff;
+    border: none;
+}
+
+#next-btn {
+    display: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#next-btn {
+    margin-top: 5px;
+    float: right;
+
+}
+
+#progress {
+    text-align: left;
+}
+
+#result-container h1 {
+    padding: 10px;
+    color: white;
+    font-size: 33px;
+    background-color: rgb(6, 56, 6);
+
+}
+
+#score,
+#percentage {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: rgb(44, 185, 217);
+
+}
